@@ -1,0 +1,81 @@
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url('../images/back_mybee.jpg');
+}
+.wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    z-index: 0;
+}
+.menu-btn {
+    position: absolute;
+    margin-top: 400px;
+    background-color: transparent;
+	border-top: 50px solid transparent;
+	border-left: 50px solid #555;
+    border-bottom: 50px solid transparent;
+    border-right: transparent;
+    outline: none;
+}
+.menu {
+    position: fixed;
+    margin-left: none;
+    margin-top: none;
+    height: 101%;
+    width: 25%;
+    z-index: 2;
+    align-items: center;
+    background-color: #555;
+    transform: translate(-100%);
+}
+.menu:hover {
+    transform: translate(-5%);
+    transition: 0.5s;
+}
+.menu-list li{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    height: 50%;
+    flex-direction: column;
+  }
+.menu-list li a {
+    margin-top: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    outline: none;
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+.menu-list li a:hover {
+    color: #FFE3F4;
+    font-size: 32px;
+}
+.main-icon {
+    position: absolute;
+    height: 40px;
+    width: 45px;
+}
+.icon {
+    position: absolute;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #f1f1f1; /* Цвет линии */
+    color: #f1f1f1; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    width: 200px;
+}

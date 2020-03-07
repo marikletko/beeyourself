@@ -1,0 +1,134 @@
+/* Сама страница и бэкграунд */
+body {
+    background: url(https://images.unsplash.com/photo-1566640241253-cdf40f195705?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Стиль заголовка на странице */
+h1{
+    position: absolute;
+    width: 384px;
+    height: 100px;
+    left: 130px;
+    top: 59px;
+    
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 100px;
+    color:black;
+    text-shadow: 4px 4px 9px rgba(214, 97, 97, 0.801);
+}
+
+/*Поле с формой: расположение*/
+form {
+    position: absolute;
+    top: 480px;
+    left: 320px;
+    transform: translate(-50%, -50%);
+}
+/*Общий класс для поля логина, пароля и кнопки*/
+.Input-form{
+    width: 400px;
+    left: 50px;
+    font-family: Forum;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+}
+.Input-form input{
+    padding: 12px; /*Чтобы форма была толстенькой и широкой*/
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: #303030;
+    font-size: 22px;
+    font-family: cursive;
+    font-style: italic;
+    
+    font-weight: normal;
+    z-index: 2;
+    background: none;
+    border: 1px solid #4D4A4A;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px #303030;
+}
+.form-control{
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.Input-form input:focus{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    outline: none;
+}
+
+.Input-form input[type="submit"]{
+    background-color: rgb(255, 224, 224);
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: none;
+    border: none;
+    width: auto;
+    box-align: center;
+}
+
+.Input-form input[type="submit"]:hover{
+    outline: none;
+    box-shadow: #4D4A4A;
+    background-color: rgb(255, 210, 210)
+}
+.Input-form input[type="submit"]:focus{
+    outline: none;
+}
+.Verification{
+    position: absolute;
+    width: 380px;
+    height: 100px;
+    left: 90px;
+    top: 200px;
+
+    font-family: Forum;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100px;
+}
+/* Кнопки --> режим входа */
+.Verification a{
+    color: #808080;
+    position: relative;
+    margin-left: 60px;
+}
+.Verification a:hover{
+    color: rgba(87, 65, 65, 0.501);
+}
+img.LittleBee{
+    position: absolute;
+    width: 100.23px;
+    height: 55.18px;
+    left: 160px;
+    top: 540px;
+    transform: scale(-1, 1);
+}
+
+.forget-password{
+    color: rgba(255, 255, 255, 0.501);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.forget-password:hover{
+    font-size: 24px;
+}
+.additive-info{
+    position: relative;
+    margin-top: 45%;
+    margin-left: 10%;
+}
